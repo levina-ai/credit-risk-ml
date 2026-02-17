@@ -135,24 +135,3 @@ In practice, the model is better suited for:
 rather than fully automated approval decisions.
 
 ---
-
-## Limitations
-
-- This is an analytical case study using public data.
-- Model outputs are risk scores and may require calibration before interpretation as probabilities.
-- Performance may degrade under distribution shift.
-- Gradient boosting models reduce interpretability relative to linear models (feature importance / SHAP can help).
-
----
-
-## Repository Structure
-credit-default-prediction/
-├── notebooks/
-│ └── credit_default_modeling.ipynb
-├── src/
-│ ├── preprocessing.py
-│ ├── modeling.py
-│ └── utils.py
-├── requirements.txt
-└── README.md
-
