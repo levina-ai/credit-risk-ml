@@ -146,4 +146,13 @@ rather than fully automated approval decisions.
 ---
 
 ## Repository Structure
+credit-default-prediction/
+├── notebooks/
+│ └── credit_default_modeling.ipynb
+├── src/
+│ ├── preprocessing.py
+│ ├── modeling.py
+│ └── utils.py
+├── requirements.txt
+└── README.md
 
